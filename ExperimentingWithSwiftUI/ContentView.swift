@@ -30,6 +30,10 @@ struct ContentView: View {
                 Text("Hello world")
                     .font(.largeTitle)
                     .glowWithBlur(.purple, radius: 6)
+                
+                Text("Hello world")
+                    .font(.largeTitle)
+                    .multicolorGlow()
             }
         }
     }
